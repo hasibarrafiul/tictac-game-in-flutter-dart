@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_string_interpolations
+
 import 'dart:ffi';
 
 import 'package:flutter/material.dart';
@@ -134,7 +136,13 @@ class _MyAppState extends State<MyApp> {
             child: Row(
               children: [
                 ElevatedButton(
-                  child: new Text('$button1'),
+                  child: new Text(
+                    '$button1',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
@@ -148,14 +156,19 @@ class _MyAppState extends State<MyApp> {
                           }
                         }
                       }
-
                       ;
                     });
                     checkWinner();
                   },
                 ),
                 ElevatedButton(
-                  child: new Text('$button2'),
+                  child: new Text(
+                    '$button2',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
@@ -176,7 +189,13 @@ class _MyAppState extends State<MyApp> {
                   },
                 ),
                 ElevatedButton(
-                  child: new Text('$button3'),
+                  child: new Text(
+                    '$button3',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
@@ -202,7 +221,13 @@ class _MyAppState extends State<MyApp> {
             child: Row(
               children: [
                 ElevatedButton(
-                  child: new Text('$button4'),
+                  child: new Text(
+                    '$button4',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
@@ -223,7 +248,13 @@ class _MyAppState extends State<MyApp> {
                   },
                 ),
                 ElevatedButton(
-                  child: new Text('$button5'),
+                  child: new Text(
+                    '$button5',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
@@ -243,7 +274,13 @@ class _MyAppState extends State<MyApp> {
                   },
                 ),
                 ElevatedButton(
-                  child: new Text('$button6'),
+                  child: new Text(
+                    '$button6',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
@@ -269,7 +306,13 @@ class _MyAppState extends State<MyApp> {
             child: Row(
               children: [
                 ElevatedButton(
-                  child: new Text('$button7'),
+                  child: new Text(
+                    '$button7',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
@@ -290,7 +333,13 @@ class _MyAppState extends State<MyApp> {
                   },
                 ),
                 ElevatedButton(
-                  child: new Text('$button8'),
+                  child: new Text(
+                    '$button8',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
@@ -310,7 +359,13 @@ class _MyAppState extends State<MyApp> {
                   },
                 ),
                 ElevatedButton(
-                  child: new Text('$button9'),
+                  child: new Text(
+                    '$button9',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.white),
+                  ),
                   onPressed: () {
                     setState(() {
                       if (clickable == true) {
